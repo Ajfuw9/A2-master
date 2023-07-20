@@ -1,0 +1,12 @@
+
+
+print ('test_string')  nil function nil 
+
+map = {
+	'key1' = 122345,
+	'key2' = 'string_map'
+}
+
+array = [
+	123445, 111, 0xff, 'array_3', {}
+]

@@ -1,0 +1,24 @@
+
+eve(' 
+	local func0 = function (a, b){
+		return function (){
+			print(a, b)
+		}
+	}
+
+	func0(1, 2)()  
+')
+
+
+for(i=0, 10, 1){
+	local a = []
+}
+
+
+function func(a, b, c){
+	ttt function(){
+		return function (){
+			print(a, b)
+		}
+	}
+}

@@ -1,0 +1,15 @@
+
+function foo(){
+	local a= 1123
+	return function (){
+		local a = 55
+		a = a+44
+		print(a)
+		local a = 4456
+		a = a+55
+		print(a)
+	}
+}
+
+local f = foo()
+f()

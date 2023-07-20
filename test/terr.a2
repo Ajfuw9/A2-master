@@ -1,0 +1,7 @@
+
+function func(a, b){
+	print(a, b)
+	return a+b
+}
+
+eve(' print(pcall(func, 1, 2))  ')

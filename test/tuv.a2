@@ -1,0 +1,38 @@
+
+
+function func(a, b, c, d, e, f){
+	return function (){
+		print(a, b, c, d)
+		return function (){
+			local g
+			return function (){
+				return function (){
+					return function (){
+						print(b, d, g)
+					}
+				}
+			}
+		}
+	}
+}
+
+
+func(1, 2, 3, 4, 5, 6)
+
+
+function func1(a, b){
+	return function (){
+		return function (){
+			print(a, b)
+		}
+	}
+}
+
+
+
+local a = func1(1, 2)()
+local b = func1(3, 4)()
+
+
+a()
+b()
